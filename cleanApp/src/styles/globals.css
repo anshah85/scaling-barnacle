@@ -1,0 +1,20 @@
+/* A simple CSS reset or baseline */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+    color: #333;
+  }
+  
+  /* Some utility classes (optional) */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
