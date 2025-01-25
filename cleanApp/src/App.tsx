@@ -3,19 +3,14 @@ import './App.css'
 import Home from './pages/Home';
 import About from './pages/About';
 import Action from './pages/Action';
+import NavBar from './pages/NavBar';
 
 function App() {
 
   return (
     <Router>
-      <div>
-        <nav>
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/action">Action</Link></li>
-          </ul>
-        </nav>
+      <div className="App">
+      <NavBar />
 
         <Routes>
           <Route path="/" element={<Home />} />
