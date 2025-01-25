@@ -2,8 +2,8 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './pages/Home';
-// import DebrisCleanup from './pages/DebrisCleanup';
-// import PreventiveMeasures from './pages/PreventiveMeasures';
+import DebrisCleanup from './pages/DebrisCleanup';
+import PreventiveMeasures from './pages/PreventiveMeasures';
 
 const App: React.FC = () => {
   return (
@@ -19,24 +19,24 @@ const App: React.FC = () => {
       />
 
       {/* DEBRIS CLEANUP PAGE */}
-      {/* <Route
+      <Route
         path="/cleanup"
         element={
           <Layout>
             <DebrisCleanup />
           </Layout>
         }
-      /> */}
+      />
 
       {/* PREVENTIVE MEASURES PAGE */}
-      {/* <Route
+      <Route
         path="/prevention"
         element={
           <Layout>
             <PreventiveMeasures />
           </Layout>
         }
-      /> */}
+      />
 
       {/* CATCH-ALL (404) */}
       <Route
